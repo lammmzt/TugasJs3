@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Eksternal</title>
+</head>
+
+<body>
+    <form id="frm">
+        <table style="
+					width: 50%;
+					background-color: aqua;
+					border: 1px solid;
+					text-align: center;
+					margin: auto;
+				">
+            <tr>
+                <th>Form Input</th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="nama">Nama</label>
+                </td>
+                <td>
+                    <input type="text" name="nama" id="nama" placeholder="Masukan Nama Anda" />
+                </td>
+                <td>
+                    <label for="Pekerjaan">Pekerjaan</label>
+                </td>
+                <td>
+                    <input type="text" name="pekerjaan" id="pekerjaan" placeholder="Masukan Pekerjaan" />
+                </td>
+                <td>
+                    <label for="hobby">Hobby</label>
+                </td>
+                <td>
+                    <input type="text" name="hobby" id="hobby" placeholder="Masukan Hobby" />
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                <th colspan="2">
+                    <br>
+                    <button type="button" onclick="dataPerson()">Submit</button>
+                </th>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <center id="hasil"></center>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
